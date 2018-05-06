@@ -1,0 +1,17 @@
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\bin\Debug\MonsterForge.exe.config
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\bin\Debug\MonsterForge.exe
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\bin\Debug\MonsterForge.pdb
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\MonsterForge.csprojResolveAssemblyReference.cache
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\MonsterForge.MainForm.resources
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\MonsterForge.Properties.Resources.resources
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\MonsterForge.csproj.GenerateResource.cache
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\MonsterForge.csproj.CoreCompileInputs.cache
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\MonsterForge.exe
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\MonsterForge.pdb
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\bin\Debug\aa\MonsterForge.resources.dll
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\MonsterForge.MainForm.aa.resources
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\aa\MonsterForge.resources.dll
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\MonsterForge.DatabaseConfigurationForm.resources
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\bin\Debug\Dapper.dll
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\bin\Debug\Dapper.xml
+C:\Users\janne\source\repos\MonsterForge\MonsterForge\obj\Debug\MonsterForge.csproj.CopyComplete
