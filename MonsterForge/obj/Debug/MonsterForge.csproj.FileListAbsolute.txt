@@ -32,3 +32,4 @@ C:\Users\janne\source\repos\NPCForge\MonsterForge\obj\Debug\aa\MonsterForge.reso
 C:\Users\janne\source\repos\NPCForge\MonsterForge\obj\Debug\MonsterForge.csproj.CopyComplete
 C:\Users\janne\source\repos\NPCForge\MonsterForge\obj\Debug\MonsterForge.exe
 C:\Users\janne\source\repos\NPCForge\MonsterForge\obj\Debug\MonsterForge.pdb
+C:\Users\janne\source\repos\NPCForge\MonsterForge\obj\Debug\MonsterForge.csprojAssemblyReference.cache

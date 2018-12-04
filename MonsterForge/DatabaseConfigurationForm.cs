@@ -52,7 +52,7 @@ namespace MonsterForge
             Close();
 
             //Note: Changing App.config file manually in any way, will reset the configurations to default.
-            //Default configurations can be seen in App.config.
+            //Default configurations can be seen in App.config at all times.
         }
     }
 }
