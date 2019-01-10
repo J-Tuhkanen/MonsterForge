@@ -24,11 +24,19 @@ namespace MonsterForge
         }
 
         private void submitButton_Click(object sender, EventArgs e)
-        {
-            NPCDatabaseConnection npcConn = new NPCDatabaseConnection();
-            npcConn.sendMonsterDataToDB(getAllFieldsData());
+        {            
+            Monster monster = new Monster(
+                npcNameTextBox.Text,
+                int.Parse(healthTextBox.Text),
+                int.Parse(staminaTextBox.Text),
+                int.Parse(manaTextBox.Text),
+                typeTextBox.Text,
+                descriptionTextBox.Text
+            );
 
-            //After sending data to the database, empty the fields since the values are already saved.
+            JSONHandler jsonHandler = new JSONHandler();
+            jsonHandler.WriteMonsterIntoAFile(monster);
+            
             emptyAllFields();
         }        
 
@@ -58,9 +66,14 @@ namespace MonsterForge
 
         private void configureDatabaseMenuButton_Click(object sender, EventArgs e)
         {
-            DatabaseConfigurationForm dbConfigurationsForm = new DatabaseConfigurationForm();
-            dbConfigurationsForm.Show();
+            DatabaseConfigurationForm dbConfigForm = new DatabaseConfigurationForm();
+            dbConfigForm.Show();
+        }
 
+        private void configureJsonMenuButton_Click(object sender, EventArgs e)
+        {
+            JsonConfigurationForm jsonConfigForm = new JsonConfigurationForm();
+            jsonConfigForm.Show();
         }
 
         private void npcListMenuButton_Click(object sender, EventArgs e)

@@ -34,9 +34,8 @@ namespace MonsterForge
             usernameTextBox.Text    = username;
             passWordTextBox.Text    = password;
         }
-
         
-        private void saveConfigurationsButton_Click(object sender, EventArgs e)
+        private void SaveConfigurationsButton_Click(object sender, EventArgs e)
         {
             applicationConfigurations.AppSettings.Settings["hostAddress"].Value     = hostAddressTextBox.Text;
             applicationConfigurations.AppSettings.Settings["username"].Value        = usernameTextBox.Text;
@@ -53,6 +52,11 @@ namespace MonsterForge
 
             //Note: Changing App.config file manually in any way, will reset the configurations to default.
             //Default configurations can be seen in App.config at all times.
+        }
+
+        private void cancelConfigurationsButton_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

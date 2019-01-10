@@ -46,9 +46,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.habylToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configureDatabaseMenuButton = new System.Windows.Forms.ToolStripMenuItem();
+            this.configureJsonMenuButton = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.npcListMenuButton = new System.Windows.Forms.ToolStripMenuItem();
-            this.configureJsonMenuButton = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -150,6 +150,12 @@
             resources.ApplyResources(this.configureDatabaseMenuButton, "configureDatabaseMenuButton");
             this.configureDatabaseMenuButton.Click += new System.EventHandler(this.configureDatabaseMenuButton_Click);
             // 
+            // configureJsonMenuButton
+            // 
+            this.configureJsonMenuButton.Name = "configureJsonMenuButton";
+            resources.ApplyResources(this.configureJsonMenuButton, "configureJsonMenuButton");
+            this.configureJsonMenuButton.Click += new System.EventHandler(this.configureJsonMenuButton_Click);
+            // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -162,11 +168,6 @@
             this.npcListMenuButton.Name = "npcListMenuButton";
             resources.ApplyResources(this.npcListMenuButton, "npcListMenuButton");
             this.npcListMenuButton.Click += new System.EventHandler(this.npcListMenuButton_Click);
-            // 
-            // configureJsonMenuButton
-            // 
-            this.configureJsonMenuButton.Name = "configureJsonMenuButton";
-            resources.ApplyResources(this.configureJsonMenuButton, "configureJsonMenuButton");
             // 
             // MainForm
             // 

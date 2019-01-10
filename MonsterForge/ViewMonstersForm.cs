@@ -12,9 +12,15 @@ namespace MonsterForge
 {
     public partial class ViewMonstersForm : Form
     {
+        private JSONHandler jsonHandler = new JSONHandler();
+
         public ViewMonstersForm()
         {
+            
             InitializeComponent();
+            monsterListView.View = View.Details;
+
+            
         }
     }
 }

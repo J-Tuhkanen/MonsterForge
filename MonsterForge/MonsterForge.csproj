@@ -35,6 +35,9 @@
     <Reference Include="Dapper, Version=1.50.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.1.50.4\lib\net451\Dapper.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -55,7 +58,14 @@
     <Compile Include="DatabaseConfigurationForm.Designer.cs">
       <DependentUpon>DatabaseConfigurationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NPCDatabaseConnection.cs" />
+    <Compile Include="JsonConfigurationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JsonConfigurationForm.Designer.cs">
+      <DependentUpon>JsonConfigurationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JSONHandler.cs" />
+    <Compile Include="Monster.cs" />
     <Compile Include="ViewMonstersForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +83,9 @@
     <EmbeddedResource Include="DatabaseConfigurationForm.resx">
       <DependentUpon>DatabaseConfigurationForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JsonConfigurationForm.resx">
+      <DependentUpon>JsonConfigurationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.aa.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +101,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ViewMonstersForm.resx">
+      <DependentUpon>ViewMonstersForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

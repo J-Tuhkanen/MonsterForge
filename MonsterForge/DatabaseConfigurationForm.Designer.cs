@@ -39,6 +39,7 @@
             this.usernameTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.passWordTextBox = new System.Windows.Forms.TextBox();
+            this.cancelConfigurationsButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // saveConfigurationsButton
@@ -47,9 +48,9 @@
             this.saveConfigurationsButton.Name = "saveConfigurationsButton";
             this.saveConfigurationsButton.Size = new System.Drawing.Size(75, 23);
             this.saveConfigurationsButton.TabIndex = 0;
-            this.saveConfigurationsButton.Text = "Save Changes";
+            this.saveConfigurationsButton.Text = "Save";
             this.saveConfigurationsButton.UseVisualStyleBackColor = true;
-            this.saveConfigurationsButton.Click += new System.EventHandler(this.saveConfigurationsButton_Click);
+            this.saveConfigurationsButton.Click += new System.EventHandler(this.SaveConfigurationsButton_Click);
             // 
             // hostAddressTextBox
             // 
@@ -131,11 +132,22 @@
             this.passWordTextBox.Size = new System.Drawing.Size(100, 20);
             this.passWordTextBox.TabIndex = 9;
             // 
+            // cancelConfigurationsButton
+            // 
+            this.cancelConfigurationsButton.Location = new System.Drawing.Point(139, 224);
+            this.cancelConfigurationsButton.Name = "cancelConfigurationsButton";
+            this.cancelConfigurationsButton.Size = new System.Drawing.Size(75, 23);
+            this.cancelConfigurationsButton.TabIndex = 11;
+            this.cancelConfigurationsButton.Text = "Cancel";
+            this.cancelConfigurationsButton.UseVisualStyleBackColor = true;
+            this.cancelConfigurationsButton.Click += new System.EventHandler(this.cancelConfigurationsButton_Click);
+            // 
             // DatabaseConfigurationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 284);
+            this.ClientSize = new System.Drawing.Size(344, 281);
+            this.Controls.Add(this.cancelConfigurationsButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.passWordTextBox);
             this.Controls.Add(this.label3);
@@ -167,5 +179,6 @@
         private System.Windows.Forms.TextBox usernameTextBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox passWordTextBox;
+        private System.Windows.Forms.Button cancelConfigurationsButton;
     }
 }

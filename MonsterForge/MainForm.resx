@@ -123,14 +123,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="npcNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 34</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="npcNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>27, 28</value>
   </data>
   <data name="npcNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 17</value>
+    <value>60, 13</value>
   </data>
   <data name="npcNameLabel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -151,13 +147,10 @@
     <value>13</value>
   </data>
   <data name="submitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 277</value>
-  </data>
-  <data name="submitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>30, 225</value>
   </data>
   <data name="submitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 23</value>
   </data>
   <data name="submitButton.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -178,13 +171,10 @@
     <value>12</value>
   </data>
   <data name="resetButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 277</value>
-  </data>
-  <data name="resetButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>131, 224</value>
   </data>
   <data name="resetButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+    <value>75, 23</value>
   </data>
   <data name="resetButton.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -208,13 +198,10 @@
     <value>True</value>
   </data>
   <data name="healthLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 123</value>
-  </data>
-  <data name="healthLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>27, 100</value>
   </data>
   <data name="healthLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 17</value>
+    <value>38, 13</value>
   </data>
   <data name="healthLabel.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -238,13 +225,10 @@
     <value>True</value>
   </data>
   <data name="staminaLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 123</value>
-  </data>
-  <data name="staminaLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>161, 100</value>
   </data>
   <data name="staminaLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 17</value>
+    <value>45, 13</value>
   </data>
   <data name="staminaLabel.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -268,13 +252,10 @@
     <value>True</value>
   </data>
   <data name="manaLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 185</value>
-  </data>
-  <data name="manaLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>27, 150</value>
   </data>
   <data name="manaLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 17</value>
+    <value>34, 13</value>
   </data>
   <data name="manaLabel.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -298,13 +279,10 @@
     <value>True</value>
   </data>
   <data name="typeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 185</value>
-  </data>
-  <data name="typeLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>161, 150</value>
   </data>
   <data name="typeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
+    <value>31, 13</value>
   </data>
   <data name="typeLabel.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -325,13 +303,10 @@
     <value>7</value>
   </data>
   <data name="healthTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 144</value>
-  </data>
-  <data name="healthTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>30, 117</value>
   </data>
   <data name="healthTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>100, 20</value>
   </data>
   <data name="healthTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -349,13 +324,10 @@
     <value>6</value>
   </data>
   <data name="manaTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 204</value>
-  </data>
-  <data name="manaTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>30, 166</value>
   </data>
   <data name="manaTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>100, 20</value>
   </data>
   <data name="manaTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -373,13 +345,10 @@
     <value>5</value>
   </data>
   <data name="staminaTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 144</value>
-  </data>
-  <data name="staminaTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>164, 117</value>
   </data>
   <data name="staminaTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>100, 20</value>
   </data>
   <data name="staminaTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -397,13 +366,10 @@
     <value>4</value>
   </data>
   <data name="typeTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 204</value>
-  </data>
-  <data name="typeTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>164, 166</value>
   </data>
   <data name="typeTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>100, 20</value>
   </data>
   <data name="typeTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -421,16 +387,13 @@
     <value>3</value>
   </data>
   <data name="descriptionTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>395, 144</value>
-  </data>
-  <data name="descriptionTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>296, 117</value>
   </data>
   <data name="descriptionTextBox.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="descriptionTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 84</value>
+    <value>227, 69</value>
   </data>
   <data name="descriptionTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -451,13 +414,10 @@
     <value>True</value>
   </data>
   <data name="descriptionLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>391, 123</value>
-  </data>
-  <data name="descriptionLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>293, 100</value>
   </data>
   <data name="descriptionLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 17</value>
+    <value>60, 13</value>
   </data>
   <data name="descriptionLabel.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -481,13 +441,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="npcNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 54</value>
-  </data>
-  <data name="npcNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>30, 44</value>
   </data>
   <data name="npcNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>656, 41</value>
+    <value>493, 35</value>
   </data>
   <data name="npcNameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -508,31 +465,25 @@
     <value>17, 17</value>
   </metadata>
   <data name="configureDatabaseMenuButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 26</value>
+    <value>122, 22</value>
   </data>
   <data name="configureDatabaseMenuButton.Text" xml:space="preserve">
     <value>Database</value>
   </data>
   <data name="configureJsonMenuButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 26</value>
+    <value>180, 22</value>
   </data>
   <data name="configureJsonMenuButton.Text" xml:space="preserve">
     <value>JSON</value>
   </data>
   <data name="habylToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 24</value>
+    <value>98, 20</value>
   </data>
   <data name="habylToolStripMenuItem.Text" xml:space="preserve">
     <value>Configurations</value>
   </data>
-  <data name="npcListMenuButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 26</value>
-  </data>
-  <data name="npcListMenuButton.Text" xml:space="preserve">
-    <value>NPC List</value>
-  </data>
   <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 24</value>
+    <value>44, 20</value>
   </data>
   <data name="viewToolStripMenuItem.Text" xml:space="preserve">
     <value>View</value>
@@ -540,11 +491,8 @@
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 2, 0, 2</value>
-  </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>809, 28</value>
+    <value>608, 24</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -564,23 +512,26 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
+  <data name="npcListMenuButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="npcListMenuButton.Text" xml:space="preserve">
+    <value>NPC List</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>809, 311</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>608, 259</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>827, 358</value>
+    <value>624, 298</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>827, 358</value>
+    <value>624, 298</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>MonsterForge</value>
@@ -597,6 +548,12 @@
   <data name="&gt;&gt;configureDatabaseMenuButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;configureJsonMenuButton.Name" xml:space="preserve">
+    <value>configureJsonMenuButton</value>
+  </data>
+  <data name="&gt;&gt;configureJsonMenuButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;viewToolStripMenuItem.Name" xml:space="preserve">
     <value>viewToolStripMenuItem</value>
   </data>
@@ -607,12 +564,6 @@
     <value>npcListMenuButton</value>
   </data>
   <data name="&gt;&gt;npcListMenuButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;configureJsonMenuButton.Name" xml:space="preserve">
-    <value>configureJsonMenuButton</value>
-  </data>
-  <data name="&gt;&gt;configureJsonMenuButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
