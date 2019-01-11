@@ -465,10 +465,13 @@
     <value>17, 17</value>
   </metadata>
   <data name="configureDatabaseMenuButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="configureDatabaseMenuButton.Text" xml:space="preserve">
     <value>Database</value>
+  </data>
+  <data name="configureDatabaseMenuButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="configureJsonMenuButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
@@ -481,6 +484,12 @@
   </data>
   <data name="habylToolStripMenuItem.Text" xml:space="preserve">
     <value>Configurations</value>
+  </data>
+  <data name="npcListMenuButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="npcListMenuButton.Text" xml:space="preserve">
+    <value>NPC List</value>
   </data>
   <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 20</value>
@@ -511,12 +520,6 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>14</value>
-  </data>
-  <data name="npcListMenuButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
-  </data>
-  <data name="npcListMenuButton.Text" xml:space="preserve">
-    <value>NPC List</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

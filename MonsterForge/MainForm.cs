@@ -25,19 +25,27 @@ namespace MonsterForge
 
         private void submitButton_Click(object sender, EventArgs e)
         {            
-            Monster monster = new Monster(
-                npcNameTextBox.Text,
-                int.Parse(healthTextBox.Text),
-                int.Parse(staminaTextBox.Text),
-                int.Parse(manaTextBox.Text),
-                typeTextBox.Text,
-                descriptionTextBox.Text
-            );
+            try
+            {
+                Monster monster = new Monster(
+                    npcNameTextBox.Text,
+                    int.Parse(healthTextBox.Text),
+                    int.Parse(staminaTextBox.Text),
+                    int.Parse(manaTextBox.Text),
+                    typeTextBox.Text,
+                    descriptionTextBox.Text
+                );
 
-            JSONHandler jsonHandler = new JSONHandler();
-            jsonHandler.WriteMonsterIntoAFile(monster);
-            
-            emptyAllFields();
+                JSONHandler jsonHandler = new JSONHandler();
+                jsonHandler.WriteMonsterIntoAFile(monster);
+
+                emptyAllFields();
+            }
+
+            catch (FormatException formatEx)
+            {
+                MessageBox.Show(formatEx.Message);
+            }       
         }        
 
         private void emptyAllFields()

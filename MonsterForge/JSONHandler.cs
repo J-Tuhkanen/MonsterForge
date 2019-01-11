@@ -41,7 +41,7 @@ namespace MonsterForge
         }
 
         // Function returns file content as JObject.
-        private JObject ReadJsonFile()
+        private JObject GetMonsterDataFromJson()
         {
             return JsonConvert.DeserializeObject<JObject>(File.ReadAllText(jsonFullPath));
         }
@@ -56,7 +56,7 @@ namespace MonsterForge
         // Function accissible outside this class.
         public void DeleteObjectByName(string objectName)
         {
-            JObject npcData = ReadJsonFile();
+            JObject npcData = GetMonsterDataFromJson();
 
             try
             {
@@ -75,12 +75,31 @@ namespace MonsterForge
         public void WriteMonsterIntoAFile(Monster monster)
         {
             JObject monsterData = new JObject();
-            monsterData = ReadJsonFile();
+            monsterData = GetMonsterDataFromJson();
 
             // Convert the object into a JArray. Parse removes slashes.
             monsterData[monster.Name] = JObject.Parse(JsonConvert.SerializeObject(monster));
 
             WriteJsonIntoAFile(monsterData.ToString());
         } 
+
+        public Monster[] GetMonsterDataAsArray()
+        {
+            JObject monsters = GetMonsterDataFromJson();
+            List<Monster> monstersArray = new List<Monster>();
+
+            foreach(var monster in monsters)
+            {
+                monstersArray.Add(new Monster(
+                    monsters[monster.Key]["Name"].ToString(),
+                    int.Parse(monsters[monster.Key]["Health"].ToString()),
+                    int.Parse(monsters[monster.Key]["Mana"].ToString()),
+                    int.Parse(monsters[monster.Key]["Stamina"].ToString()),
+                    monsters[monster.Key]["Type"].ToString(),
+                    monsters[monster.Key]["Description"].ToString()
+                ));
+            }
+            return monstersArray.ToArray();
+        }
     }
 }
