@@ -52,20 +52,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatabaseConfigurationForm.cs">
+    <Compile Include="Edit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatabaseConfigurationForm.Designer.cs">
-      <DependentUpon>DatabaseConfigurationForm.cs</DependentUpon>
+    <Compile Include="Edit.Designer.cs">
+      <DependentUpon>Edit.cs</DependentUpon>
     </Compile>
-    <Compile Include="JsonConfigurationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JsonConfigurationForm.Designer.cs">
-      <DependentUpon>JsonConfigurationForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="JSONHandler.cs" />
     <Compile Include="Monster.cs" />
+    <Compile Include="SQLHandler.cs" />
     <Compile Include="ViewMonstersForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,11 +74,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DatabaseConfigurationForm.resx">
-      <DependentUpon>DatabaseConfigurationForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JsonConfigurationForm.resx">
-      <DependentUpon>JsonConfigurationForm.cs</DependentUpon>
+    <EmbeddedResource Include="Edit.resx">
+      <DependentUpon>Edit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.aa.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

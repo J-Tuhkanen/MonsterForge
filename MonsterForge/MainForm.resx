@@ -464,29 +464,8 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="configureDatabaseMenuButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="configureDatabaseMenuButton.Text" xml:space="preserve">
-    <value>Database</value>
-  </data>
-  <data name="configureDatabaseMenuButton.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="configureJsonMenuButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="configureJsonMenuButton.Text" xml:space="preserve">
-    <value>JSON</value>
-  </data>
-  <data name="habylToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 20</value>
-  </data>
-  <data name="habylToolStripMenuItem.Text" xml:space="preserve">
-    <value>Configurations</value>
-  </data>
   <data name="npcListMenuButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="npcListMenuButton.Text" xml:space="preserve">
     <value>NPC List</value>
@@ -538,24 +517,6 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>MonsterForge</value>
-  </data>
-  <data name="&gt;&gt;habylToolStripMenuItem.Name" xml:space="preserve">
-    <value>habylToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;habylToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;configureDatabaseMenuButton.Name" xml:space="preserve">
-    <value>configureDatabaseMenuButton</value>
-  </data>
-  <data name="&gt;&gt;configureDatabaseMenuButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;configureJsonMenuButton.Name" xml:space="preserve">
-    <value>configureJsonMenuButton</value>
-  </data>
-  <data name="&gt;&gt;configureJsonMenuButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;viewToolStripMenuItem.Name" xml:space="preserve">
     <value>viewToolStripMenuItem</value>

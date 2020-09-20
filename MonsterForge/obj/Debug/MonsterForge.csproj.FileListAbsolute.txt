@@ -55,3 +55,24 @@ C:\Users\janne\source\repos\NPCForge UI\MonsterForge\bin\Debug\Newtonsoft.Json.d
 C:\Users\janne\source\repos\NPCForge UI\MonsterForge\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\janne\source\repos\NPCForge UI\MonsterForge\bin\Debug\Newtonsoft.Json.xml
 C:\Users\janne\source\repos\NPCForge UI\MonsterForge\obj\Debug\MonsterForge.ViewMonstersForm.resources
+C:\Monster-Forge\MonsterForge\bin\Debug\MonsterForge.exe.config
+C:\Monster-Forge\MonsterForge\bin\Debug\MonsterForge.exe
+C:\Monster-Forge\MonsterForge\bin\Debug\MonsterForge.pdb
+C:\Monster-Forge\MonsterForge\bin\Debug\aa\MonsterForge.resources.dll
+C:\Monster-Forge\MonsterForge\bin\Debug\Dapper.dll
+C:\Monster-Forge\MonsterForge\bin\Debug\Newtonsoft.Json.dll
+C:\Monster-Forge\MonsterForge\bin\Debug\Dapper.xml
+C:\Monster-Forge\MonsterForge\bin\Debug\Newtonsoft.Json.pdb
+C:\Monster-Forge\MonsterForge\bin\Debug\Newtonsoft.Json.xml
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.csprojAssemblyReference.cache
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.MainForm.resources
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.Properties.Resources.resources
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.ViewMonstersForm.resources
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.MainForm.aa.resources
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.csproj.GenerateResource.cache
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.csproj.CoreCompileInputs.cache
+C:\Monster-Forge\MonsterForge\obj\Debug\aa\MonsterForge.resources.dll
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.csproj.CopyComplete
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.exe
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.pdb
+C:\Monster-Forge\MonsterForge\obj\Debug\MonsterForge.EditForm.resources

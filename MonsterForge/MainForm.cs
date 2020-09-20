@@ -35,9 +35,9 @@ namespace MonsterForge
                     typeTextBox.Text,
                     descriptionTextBox.Text
                 );
+                SQLHandler sqlHandler = new SQLHandler();
+                sqlHandler.AddNewMonster(monster);
 
-                JSONHandler jsonHandler = new JSONHandler();
-                jsonHandler.WriteMonsterIntoAFile(monster);
 
                 emptyAllFields();
             }
@@ -72,17 +72,7 @@ namespace MonsterForge
             };
         }
 
-        private void configureDatabaseMenuButton_Click(object sender, EventArgs e)
-        {
-            DatabaseConfigurationForm dbConfigForm = new DatabaseConfigurationForm();
-            dbConfigForm.Show();
-        }
 
-        private void configureJsonMenuButton_Click(object sender, EventArgs e)
-        {
-            JsonConfigurationForm jsonConfigForm = new JsonConfigurationForm();
-            jsonConfigForm.Show();
-        }
 
         private void npcListMenuButton_Click(object sender, EventArgs e)
         {

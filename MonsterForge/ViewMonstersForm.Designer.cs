@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.monsterListView = new System.Windows.Forms.ListView();
-            this.nameColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.healthColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.manaColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.staminaHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -37,18 +36,23 @@
             this.descriptionHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.deleteButton = new System.Windows.Forms.Button();
             this.editButton = new System.Windows.Forms.Button();
+            this.ID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.nameColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // monsterListView
             // 
             this.monsterListView.Activation = System.Windows.Forms.ItemActivation.TwoClick;
             this.monsterListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ID,
             this.nameColumn,
             this.healthColumn,
             this.manaColumn,
             this.staminaHeader,
             this.typeHeader,
             this.descriptionHeader});
+            this.monsterListView.FullRowSelect = true;
+            this.monsterListView.HideSelection = false;
             this.monsterListView.Location = new System.Drawing.Point(24, 25);
             this.monsterListView.Name = "monsterListView";
             this.monsterListView.Size = new System.Drawing.Size(744, 298);
@@ -57,33 +61,31 @@
             this.monsterListView.View = System.Windows.Forms.View.Details;
             this.monsterListView.SelectedIndexChanged += new System.EventHandler(this.monsterListView_SelectedIndexChanged);
             // 
-            // nameColumn
-            // 
-            this.nameColumn.Text = "Name";
-            // 
             // healthColumn
             // 
             this.healthColumn.Text = "Health";
-            this.healthColumn.Width = 110;
+            this.healthColumn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // manaColumn
             // 
             this.manaColumn.Text = "Mana";
+            this.manaColumn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // staminaHeader
             // 
             this.staminaHeader.Text = "Stamina";
-            this.staminaHeader.Width = 183;
+            this.staminaHeader.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // typeHeader
             // 
             this.typeHeader.Text = "Type";
-            this.typeHeader.Width = 50;
+            this.typeHeader.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.typeHeader.Width = 100;
             // 
             // descriptionHeader
             // 
             this.descriptionHeader.Text = "Description";
-            this.descriptionHeader.Width = 149;
+            this.descriptionHeader.Width = 257;
             // 
             // deleteButton
             // 
@@ -105,6 +107,17 @@
             this.editButton.UseVisualStyleBackColor = true;
             this.editButton.Click += new System.EventHandler(this.editButton_Click);
             // 
+            // ID
+            // 
+            this.ID.Tag = "ID";
+            this.ID.Text = "ID";
+            this.ID.Width = 50;
+            // 
+            // nameColumn
+            // 
+            this.nameColumn.Text = "Name";
+            this.nameColumn.Width = 150;
+            // 
             // ViewMonstersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -122,7 +135,6 @@
         #endregion
 
         private System.Windows.Forms.ListView monsterListView;
-        private System.Windows.Forms.ColumnHeader nameColumn;
         private System.Windows.Forms.ColumnHeader healthColumn;
         private System.Windows.Forms.ColumnHeader manaColumn;
         private System.Windows.Forms.ColumnHeader staminaHeader;
@@ -130,5 +142,7 @@
         private System.Windows.Forms.ColumnHeader descriptionHeader;
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.Button editButton;
+        private System.Windows.Forms.ColumnHeader ID;
+        private System.Windows.Forms.ColumnHeader nameColumn;
     }
 }
